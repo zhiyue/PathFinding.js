@@ -1,7 +1,4 @@
 
-layout: false
----
-
 PathFinding.js
 ==============
 #### A comprehensive path-finding library in javascript. ####
