@@ -83,7 +83,7 @@ var matrix = [
     [1, 0, 0, 0, 1],
     [0, 0, 1, 0, 0],
 ];
-var grid = new PF.Grid(5, 3, matrix);
+var grid = new PF.Grid(matrix);
 ```
 
 Currently there are 10 path-finders bundled in this library, namely:
@@ -233,7 +233,7 @@ To build the browser distribution:
 
 To run the tests
 (algorithms only, not including the visualization) with
-[mocha](http://visionmedia.github.com/mocha/) and [should.js](https://github.com/visionmedia/should.js)
+[mocha](http://mochajs.org/) and [should.js](https://github.com/visionmedia/should.js)
 First install mocha:
 
     npm install -d -g mocha
